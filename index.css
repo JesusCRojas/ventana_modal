@@ -1,0 +1,22 @@
+body {
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/*MODAL*/
+
+/*Con backdrop se pueden cambiar lo estilos de la parte de atrás (back) después de mostrar el modal.*/
+#dialog-modal::backdrop {
+    background-color: rgba(0, 0, 0, .55);
+}
+
+#dialog-modal {
+    max-width: 50ch;
+}
